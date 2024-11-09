@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>AltV.Community.MValueAdapters.Generators</PackageId>
+        <PackageId>AltV.Community.Events</PackageId>
         <Version>0.0.1</Version>
         <Authors>duydang2311</Authors>
         <PackageTags>altv gtav gta5 event async async-event</PackageTags>
