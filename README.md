@@ -24,6 +24,9 @@ using AltV.Community.Events;
 
 // .net 8 primary constructor syntax
 public sealed class PlayerLoggedInEvent(IEventInvoker invoker) : Event<IPlayer>(invoker) { }
+
+// with more parameters
+public sealed class PlayerLoggedInEvent(IEventInvoker invoker) : Event<IPlayer, int, string, float, double>(invoker) { }
 ```
 
 2. Register necessary types to the service collection
